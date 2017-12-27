@@ -1,5 +1,5 @@
 # CircleImageView
-Android 圆形ImageView，可以设置五角星形，可设置表框（border）
+Android 圆形ImageView，可以设置五角星形，可设置边框（border）
 
 1. 同普通ImageView一样在xml文件中加入布局：
 
