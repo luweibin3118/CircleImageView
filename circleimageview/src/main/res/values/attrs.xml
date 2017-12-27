@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="circle_view">
+        <attr name="image_type" format="integer" />
+        <attr name="corner_number" format="integer" />
+        <attr name="smooth_line" format="boolean" />
+        <attr name="border_size" format="integer" />
+        <attr name="border_color" format="integer" />
+    </declare-styleable>
+</resources>

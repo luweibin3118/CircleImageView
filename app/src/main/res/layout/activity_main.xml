@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33FF0000"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <com.example.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/test"
+            app:border_color="0xff996351"
+            app:border_size="50"
+            app:corner_number="5"
+            app:image_type="0"
+            app:smooth_line="true" />
+
+        <com.example.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/test"
+            app:border_color="0xff996351"
+            app:border_size="50"
+            app:corner_number="5"
+            app:image_type="1"
+            app:smooth_line="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <com.example.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/test"
+            app:border_color="0xff996351"
+            app:border_size="50"
+            app:corner_number="6"
+            app:image_type="1"
+            app:smooth_line="true" />
+
+        <com.example.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/test"
+            app:border_color="0xff996351"
+            app:border_size="50"
+            app:corner_number="20"
+            app:image_type="1"
+            app:smooth_line="true" />
+    </LinearLayout>
+
+
+</LinearLayout>
