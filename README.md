@@ -15,7 +15,7 @@ Android 圆形ImageView，可以设置五角星形，可设置表框（border）
             app:image_type="0"
             app:smooth_line="true" />
 
-2. 多天界了几种自定义属性：
+2. 多添加了几种自定义属性：
 
         <resources>
             <declare-styleable name="circle_view">
