@@ -3,17 +3,18 @@ Android 圆形ImageView，可以设置五角星形，可设置边框（border）
 
 项目添加依赖： project/build.gradle中添加：
 
-allprojects {
-    repositories {
-        ...
-        maven { url 'https://jitpack.io' }
+    allprojects {
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+        }
     }
-}
+
 project/app/build.gradle中添加：
 
-dependencies {
-    compile 'com.github.luweibin3118:CircleImageView:v1.0.1'
-}
+    dependencies {
+        compile 'com.github.luweibin3118:CircleImageView:v1.0.1'
+    }
 
 
 1. 同普通ImageView一样在xml文件中加入布局：
